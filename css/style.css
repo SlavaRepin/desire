@@ -635,6 +635,8 @@ body.touch .row-collection__item-image {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .breadcrumbs__item {
@@ -3798,6 +3800,16 @@ body.touch .aesthetic__img {
   .inspiration__bg {
     padding: 0 0 21.6% 0;
     min-height: 20rem;
+  }
+}
+
+@media screen and (max-width: 108.74875rem) {
+  .breadcrumbs__wrap--transparent-color {
+    background-color: rgba(223, 223, 223, 0.5);
+  }
+
+  .page__map {
+    margin-top: 0;
   }
 }
 
