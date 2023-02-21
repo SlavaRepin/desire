@@ -1194,7 +1194,7 @@ body.touch .row-collection__item-image {
   right: -0.59375rem;
 }
 
-.aside__button {
+.aside-button {
   position: fixed;
   z-index: 999;
   top: 5.9375rem;
@@ -1218,19 +1218,19 @@ body.touch .row-collection__item-image {
   display: none;
 }
 
-.aside__button::before {
+.aside-button::before {
   font-size: 1rem;
   -webkit-transition: all 0.5s ease 0s;
   -o-transition: all 0.5s ease 0s;
   transition: all 0.5s ease 0s;
 }
 
-.aside__button._active {
+.aside-button._active {
   -webkit-box-shadow: inset 0rem 0rem 0.875rem rgb(54, 56, 56);
           box-shadow: inset 0rem 0rem 0.875rem rgb(54, 56, 56);
 }
 
-.aside__button._active::before {
+.aside-button._active::before {
   -webkit-transition: all 0.5s ease 0s;
   -o-transition: all 0.5s ease 0s;
   transition: all 0.5s ease 0s;
@@ -3944,7 +3944,7 @@ body.touch .aesthetic__img {
     display: block;
   }
 
-  .aside__button {
+  .aside-button {
     display: block;
   }
 
